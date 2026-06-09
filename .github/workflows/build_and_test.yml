@@ -3,25 +3,6 @@ name: Build & Test
 on: [push, workflow_dispatch]
 
 jobs:
-  build_snap:
-    runs-on: ubuntu-24.04
-
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      with:
-        submodules: recursive
-
-    - name: Build Snap
-      id: snapcraft
-      uses: snapcore/action-build@v1
-
-    - name: Upload Snap Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: snap
-        path: ${{ steps.snapcraft.outputs.snap }}
-
   build_flatpak:
     runs-on: ubuntu-24.04
     container:

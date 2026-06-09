@@ -34,29 +34,29 @@ modules:
       # Install metainfo
       - install -Dm644 flatpak/io.github.crossplatform.icloud-for-linux.metainfo.xml /app/share/metainfo/io.github.crossplatform.icloud-for-linux.metainfo.xml
       # Install desktop files
-      - install -Dm644 snap/gui/mail.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.mail.desktop
-      - install -Dm644 snap/gui/contacts.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.contacts.desktop
-      - install -Dm644 snap/gui/calendar.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.calendar.desktop
-      - install -Dm644 snap/gui/photos.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.photos.desktop
-      - install -Dm644 snap/gui/drive.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.drive.desktop
-      - install -Dm644 snap/gui/notes.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.notes.desktop
-      - install -Dm644 snap/gui/reminders.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.reminders.desktop
-      - install -Dm644 snap/gui/pages.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.pages.desktop
-      - install -Dm644 snap/gui/numbers.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.numbers.desktop
-      - install -Dm644 snap/gui/keynote.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.keynote.desktop
-      - install -Dm644 snap/gui/find.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.find.desktop
+      - install -Dm644 flatpak/gui/mail.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.mail.desktop
+      - install -Dm644 flatpak/gui/contacts.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.contacts.desktop
+      - install -Dm644 flatpak/gui/calendar.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.calendar.desktop
+      - install -Dm644 flatpak/gui/photos.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.photos.desktop
+      - install -Dm644 flatpak/gui/drive.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.drive.desktop
+      - install -Dm644 flatpak/gui/notes.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.notes.desktop
+      - install -Dm644 flatpak/gui/reminders.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.reminders.desktop
+      - install -Dm644 flatpak/gui/pages.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.pages.desktop
+      - install -Dm644 flatpak/gui/numbers.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.numbers.desktop
+      - install -Dm644 flatpak/gui/keynote.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.keynote.desktop
+      - install -Dm644 flatpak/gui/find.desktop /app/share/applications/io.github.crossplatform.icloud-for-linux.find.desktop
       # Install icons
-      - install -Dm644 snap/gui/mail.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.mail.png
-      - install -Dm644 snap/gui/contacts.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.contacts.png
-      - install -Dm644 snap/gui/calendar.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.calendar.png
-      - install -Dm644 snap/gui/photos.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.photos.png
-      - install -Dm644 snap/gui/drive.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.drive.png
-      - install -Dm644 snap/gui/notes.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.notes.png
-      - install -Dm644 snap/gui/reminders.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.reminders.png
-      - install -Dm644 snap/gui/pages.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.pages.png
-      - install -Dm644 snap/gui/numbers.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.numbers.png
-      - install -Dm644 snap/gui/keynote.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.keynote.png
-      - install -Dm644 snap/gui/find.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.find.png
+      - install -Dm644 flatpak/gui/mail.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.mail.png
+      - install -Dm644 flatpak/gui/contacts.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.contacts.png
+      - install -Dm644 flatpak/gui/calendar.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.calendar.png
+      - install -Dm644 flatpak/gui/photos.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.photos.png
+      - install -Dm644 flatpak/gui/drive.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.drive.png
+      - install -Dm644 flatpak/gui/notes.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.notes.png
+      - install -Dm644 flatpak/gui/reminders.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.reminders.png
+      - install -Dm644 flatpak/gui/pages.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.pages.png
+      - install -Dm644 flatpak/gui/numbers.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.numbers.png
+      - install -Dm644 flatpak/gui/keynote.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.keynote.png
+      - install -Dm644 flatpak/gui/find.png /app/share/icons/hicolor/256x256/apps/io.github.crossplatform.icloud-for-linux.find.png
       # Fix desktop file entries
       - sed -i 's|Icon=.*|Icon=io.github.crossplatform.icloud-for-linux.mail|g' /app/share/applications/io.github.crossplatform.icloud-for-linux.mail.desktop
       - sed -i 's|Exec=.*|Exec=icloud-for-linux mail Mail|g' /app/share/applications/io.github.crossplatform.icloud-for-linux.mail.desktop
